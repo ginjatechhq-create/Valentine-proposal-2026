@@ -27,43 +27,37 @@ questions: {
         noBtn: "Hmm… okay 😌",
         secretAnswer: "I don’t just like you… I care about you more than words can say 💕"
     },
-
     second: {
         text: "Do you feel happy when you see my message? 😊",
         yesBtn: "Always ❤️",
         noBtn: "Sometimes 😌"
     },
-
     third: {
         text: "If I wasn’t around for a day… would you miss me? 🥺",
         yesBtn: "Of course I would 💕",
         noBtn: "Maybe a little 😅"
     },
-
     fourth: {
         text: "Do I make you smile without even trying? 😄",
         yesBtn: "Yes, every time 😍",
         noBtn: "You do sometimes 😉"
     },
-
     fifth: {
         text: "Would you feel safe telling me anything? 💭❤️",
         yesBtn: "Yes, I trust you 🫶",
         noBtn: "I think so 🤍"
     },
-
     sixth: {
         text: "Okay… be honest 🥹 how special am I to you? 💖",
         startText: "You mean this much…",
         nextBtn: "Tell me more ❤️"
     },
-
     seventh: {
         text: "One last thing… will you be my Valentine this February 14th? 🌹✨",
         yesBtn: "Yes, always ❤️",
         noBtn: "Let me think 😅"
     }
-},
+}
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
@@ -75,7 +69,7 @@ questions: {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        message: "Get a big warm hug and a huge kiss! I cant wait to spoil you on Val day",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
