@@ -1,3 +1,4 @@
+
 // ============================================
 // 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
 // ============================================
@@ -19,44 +20,24 @@ const CONFIG = {
     },
 
     // Questions and answers
-// Designed to feel like a gentle love journey 💞
+// Customize each question and its possible responses
 questions: {
-    first: {
-        text: "Hey… can I ask you something? 🥹",
-        yesBtn: "Of course ❤️",
-        noBtn: "Hmm… okay 😌",
-        secretAnswer: "I don’t just like you… I care about you more than words can say 💕"
-    },
-    second: {
-        text: "Do you feel happy when you see my message? 😊",
-        yesBtn: "Always ❤️",
-        noBtn: "Sometimes 😌"
-    },
-    third: {
-        text: "If I wasn’t around for a day… would you miss me? 🥺",
-        yesBtn: "Of course I would 💕",
-        noBtn: "Maybe a little 😅"
-    },
-    fourth: {
-        text: "Do I make you smile without even trying? 😄",
-        yesBtn: "Yes, every time 😍",
-        noBtn: "You do sometimes 😉"
-    },
-    fifth: {
-        text: "Would you feel safe telling me anything? 💭❤️",
-        yesBtn: "Yes, I trust you 🫶",
-        noBtn: "I think so 🤍"
-    },
-    sixth: {
-        text: "Okay… be honest 🥹 how special am I to you? 💖",
-        startText: "You mean this much…",
-        nextBtn: "Tell me more ❤️"
-    },
-    seventh: {
-        text: "One last thing… will you be my Valentine this February 14th? 🌹✨",
-        yesBtn: "Yes, always ❤️",
-        noBtn: "Let me think 😅"
-    }
+first: {
+text: "Do you like me?",                                    // First interaction
+yesBtn: "Yes",                                             // Text for "Yes" button
+noBtn: "No",                                               // Text for "No" button
+secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+},
+second: {
+text: "How much do you love me?",                          // For the love meter
+startText: "This much!",                                   // Text before the percentage
+nextBtn: "Next ❤️"                                         // Text for the next button
+},
+third: {
+text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
+yesBtn: "Yes!",                                             // Text for "Yes" button
+noBtn: "No"                                                 // Text for "No" button
+}
 },
     // Love meter messages
     // They show up depending on how far they slide the meter
