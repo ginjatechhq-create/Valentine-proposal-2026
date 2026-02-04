@@ -57,7 +57,7 @@ questions: {
         yesBtn: "Yes, always ❤️",
         noBtn: "Let me think 😅"
     }
-}
+},
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
@@ -97,7 +97,7 @@ questions: {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://collection.cloudinary.com/doqffplej/9b3119a6a79f08bfca9035a7fc9f535a", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/doqffplej/video/upload/v1770235958/justin_bieber_-_As_Long_As_You_Love_Me_Audio_ft._Big_Sean_music.naij.com_i8eqrz.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
